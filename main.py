@@ -1,5 +1,5 @@
 import re
-import infytq_2
+import infytq_2,infytq_3
 def perform_join(number_list):
     return "".join(number_list)
 
@@ -41,5 +41,10 @@ def challenge_one():
 
 def challenge_two():
     infytq_2.second()
-challenge_one()
-challenge_two()
+
+def challenge_three():
+    infytq_3.main_func()
+
+#challenge_one()
+#challenge_two()
+challenge_three()

@@ -1,5 +1,5 @@
 import re
-
+import infytq_2
 def perform_join(number_list):
     return "".join(number_list)
 
@@ -38,4 +38,8 @@ def challenge_one():
     final_list = merge(final_list_even, final_list_odd)
     print(perform_join(final_list))
 
+
+def challenge_two():
+    infytq_2.second()
 challenge_one()
+challenge_two()
